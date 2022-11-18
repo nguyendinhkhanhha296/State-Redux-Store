@@ -1,6 +1,9 @@
 {
   "name": "mern-client",
   "version": "0.1.0",
+  "engines": {
+    "node": "18.8.0"
+  },
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
@@ -14,6 +17,7 @@
     "graphql": "^14.6.0",
     "graphql-tag": "^2.10.3",
     "jwt-decode": "^2.2.0",
+    "node-version-use": "^0.4.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
