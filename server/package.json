@@ -2,6 +2,9 @@
   "name": "mern-server",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "18.8.0"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -18,6 +21,7 @@
     "graphql": "^15.5.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.7",
+    "node-version-use": "^0.4.7",
     "stripe": "^8.67.0"
   },
   "devDependencies": {
