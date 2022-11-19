@@ -23,6 +23,7 @@
     "node-version-use": "^0.4.7"
   },
   "devDependencies": {
-    "concurrently": "^5.1.0"
+    "concurrently": "^5.1.0",
+    "eslint-plugin-disable": "^2.0.3"
   }
 }
